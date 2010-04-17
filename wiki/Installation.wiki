@@ -1,0 +1,21 @@
+#summary How to install django-project-management
+
+= Introduction =
+
+These instruction assume a fresh installation of Ubuntu 9.10 with mysql-server and apache already installed
+
+
+= Details =
+
+Install additional packages
+
+I installed the Django package from http://djangoproject.org rather than the Ubuntu packaged version
+
+{{{
+wget http://www.djangoproject.com/download/1.1.1/tarball/
+tar zxvf Django-1.1.1.tar.gz
+cd Django-1.1.1/
+python setup.py install
+}}}
+
+
