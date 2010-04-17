@@ -23,4 +23,6 @@ Install required Ubuntu packages
 {{{
 apt-get install python-mysqldb
 apt-get install python-reportlab
+apt-get install python-html5lib
+apt-get install python-ldap
 }}}
