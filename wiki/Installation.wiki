@@ -7,7 +7,7 @@ These instruction assume a fresh installation of Ubuntu 9.10 with mysql-server a
 
 = Details =
 
-Install additional packages
+Install Django
 
 I installed the Django package from http://djangoproject.org rather than the Ubuntu packaged version
 
@@ -18,4 +18,9 @@ cd Django-1.1.1/
 python setup.py install
 }}}
 
+Install required Ubuntu packages
 
+{{{
+apt-get install python-mysqldb
+apt-get install python-reportlab
+}}}
