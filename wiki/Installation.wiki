@@ -26,3 +26,11 @@ apt-get install python-reportlab
 apt-get install python-html5lib
 apt-get install python-ldap
 }}}
+
+Enable Apache mod-rewrite module
+
+{{{
+cd /etc/apache2
+cd mods-enabled/
+ln -s ../mods-available/rewrite.load 
+}}}
