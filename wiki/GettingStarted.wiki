@@ -1,0 +1,7 @@
+#summary Getting Started with django-project-management
+
+= Creating a new project =
+
+At the moment projects are created using the admin interface rather than the front-end.
+
+Go to /admin on your 
