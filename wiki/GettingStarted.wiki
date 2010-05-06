@@ -4,4 +4,6 @@
 
 At the moment projects are created using the admin interface rather than the front-end.
 
-Go to /admin on your 
+Go to your admin section and click the *Add* link next to *Projects*
+
+http://django-project-management.googlecode.com/svn/wiki/screenshots/create_new_project.png
