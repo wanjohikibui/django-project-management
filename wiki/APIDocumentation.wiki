@@ -21,6 +21,9 @@
 || Managers || /api/projects/<< project_number >>/managers/ || List of Managers || - || - || No ||
 || Non-managers || /api/projects/<< project_number >>/non-managers/ || List of non-Managers || - || - || No ||
 || Skillsets || /api/skillsets/ || List of skillsets || Add to list of skillsets || - || No ||
+|| Stage Plan || /api/projects/<< project_number >>/stage_plan/ || List of Stages || Add to Stages || - || No ||
+|| One Stage || /api/projects/<< project_number >>/stage_plan/<< stage_id >>/ || Stage detail || Update the stage || Delete the stage || No ||
+
 
 
 
