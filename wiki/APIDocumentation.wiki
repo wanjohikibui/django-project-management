@@ -3,3 +3,9 @@
 || *Description* || *URI* || *GET* || *PUT* || *DELETE* ||
 || List of Projects || /api/projects/ || List of all projects || - || - ||
 || One Project || /api/projects/<< project_number >>/ || Project details || Updates project || - ||
+|| List of Deliverables || /api/deliverables/<< project_number >>/ || List of Deliverables || - || - ||
+|| One Deliverables || /api/deliverables/<< project_number >>/<< deliverable_id >> || Deliverable detail || Update the deliverable || Delete the deliverable* ||
+
+
+
+* Objects aren't really deleted but disassociated from the project
