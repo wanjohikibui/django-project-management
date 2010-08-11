@@ -1,6 +1,6 @@
 #summary Draft documentation of how the REST API will work
 
-|| *Description* || *URI* || *GET* || *PUT* || *DELETE* || *omplete* ||
+|| *Description* || *URI* || *GET* || *PUT* || *DELETE* || *Complete* ||
 || List of Projects || /api/projects/ || List of all projects || - || - || No ||
 || One Project || /api/projects/<< project_number >>/ || Project details || Updates project || - || No ||
 || List of Deliverables || /api/deliverables/<< project_number >>/ || List of Deliverables || - || - || No ||
@@ -17,6 +17,10 @@
 || One Report || /api/report/<< project_number >>/<< report_id >>/ || Report detail || Update the Report || Delete the Report* || No ||
 || List of Files || /api/files/<< project_number >>/ || List of Files || - || - || No ||
 || One File || /api/files/<< project_number >>/<< file_id >>/ || File detail || Update the File || Delete the File* || No ||
+|| Users || /api/projects/<< project_number >>/users/ || List of Users || - || - || No ||
+|| Managers || /api/projects/<< project_number >>/managers/ || List of Managers || - || - || No ||
+|| Non-managers || /api/projects/<< project_number >>/non-managers/ || List of non-Managers || - || - || No ||
+|| Skillsets || /api/skillsets/ || List of skillsets || Add to list of skillsets || - || No ||
 
 
 
