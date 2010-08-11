@@ -4,7 +4,19 @@
 || List of Projects || /api/projects/ || List of all projects || - || - ||
 || One Project || /api/projects/<< project_number >>/ || Project details || Updates project || - ||
 || List of Deliverables || /api/deliverables/<< project_number >>/ || List of Deliverables || - || - ||
-|| One Deliverables || /api/deliverables/<< project_number >>/<< deliverable_id >> || Deliverable detail || Update the deliverable || Delete the deliverable* ||
+|| One Deliverable || /api/deliverables/<< project_number >>/<< deliverable_id >> || Deliverable detail || Update the deliverable || Delete the deliverable* ||
+|| List of Risks || /api/risks/<< project_number >>/ || List of Risks || - || - ||
+|| One Risk || /api/risks/<< project_number >>/<< risk_id >> || Risk detail || Update the Risk || Delete the Risk* ||
+|| List of Work Items || /api/wbs/<< project_number >>/ || List of Work Items || - || - ||
+|| One Work Item || /api/wbs/<< project_number >>/<< wbs_id >> || Work Item detail || Update the Work Item || Delete the Work Item* ||
+|| List of Issues || /api/issues/<< project_number >>/ || List of Issues || - || - ||
+|| One Issue || /api/issues/<< project_number >>/<< issue_id >> || Issue detail || Update the Issue || Delete the Issue* ||
+|| List of Lessons || /api/lessons/<< project_number >>/ || List of Lessons || - || - ||
+|| One Lesson || /api/lessons/<< project_number >>/<< lesson_id >> || Lesson detail || Update the Lesson || Delete the Lesson* ||
+|| List of Reports || /api/reports/<< project_number >>/ || List of Reports || - || - ||
+|| One Report || /api/report/<< project_number >>/<< report_id >> || Report detail || Update the Report || Delete the Report* ||
+|| List of Files || /api/files/<< project_number >>/ || List of Files || - || - ||
+|| One File || /api/files/<< project_number >>/<< file_id >> || File detail || Update the File || Delete the File* ||
 
 
 
