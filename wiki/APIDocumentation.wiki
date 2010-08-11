@@ -1,2 +1,4 @@
+#summary Draft documentation of how the REST API will work
+
 || *Description* || *URI* || *GET* || *PUT* || *DELETE* ||
 || Project || /api/Projects/ || List of all projects || - || - ||
