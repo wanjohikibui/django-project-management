@@ -1,0 +1,2 @@
+|| Description || URL || GET || PUT || DELETE ||
+|| Project || /api/Projects/ || List of all projects || - || - ||
