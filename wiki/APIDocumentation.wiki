@@ -1,4 +1,5 @@
 #summary Draft documentation of how the REST API will work
 
 || *Description* || *URI* || *GET* || *PUT* || *DELETE* ||
-|| Project || /api/Projects/ || List of all projects || - || - ||
+|| List of Projects || /api/projects/ || List of all projects || - || - ||
+|| One Project || /api/projects/<< project_number >>/ || Project details || Updates project || - ||
