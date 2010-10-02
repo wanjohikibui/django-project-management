@@ -15,6 +15,6 @@ The ExtJS element has a custom property that was defined in new_site_media/js/ma
 
 This indicates whether ExtJS should attempt to load a popup for the element and if so which string to load.
 
-This text is loaded via AJAX using the URL /GetDoc. An example call would be /GetDoc?field=deliverable-rpo
+This text is loaded via AJAX using the URL `/GetDoc`. An example call would be `/GetDoc?field=deliverable-rpo`
 
-The Django view function that handles the request for documentation strings (project.views.get_doc) looks for the correct DjangoCMS page (or actually the PageContent model) and returns it back to the user interface as a string.
+The Django view function that handles the request for documentation strings (project.views.get_doc) looks for the correct `DjangoCMS` page (or actually the `PageContent` model) and returns it back to the user interface as a string.
