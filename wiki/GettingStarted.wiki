@@ -47,7 +47,7 @@ A sample workflow....
      * add new items on top with "manage project"
        * Project Initial: summary of project metadata
        * Deliverables
-         * Description: Short description of n-th deliverable
+         * Description: Short description of n-th deliverable (hint: put a number as first character(s) to allow good sorting)
          * Acceptance Criteria: what's needed to be acceptable?
          * Deliverable Tester: who decides that it is acceptable?
          * Method: how is the acceptance tested?
