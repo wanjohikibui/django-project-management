@@ -23,3 +23,65 @@ You will be asked to provide the following information:
 django-project-management was designed to be used in a multi-company, multi-team environment. For this reason if you don't have read access to a project you won't see it in the front end, even if you are the project manager or a Django admin.
 
 http://django-project-management.googlecode.com/svn/wiki/screenshots/create_new_project.png
+
+=== Django Project Management ===
+
+A sample workflow....
+
+ * Go to Admin panel to register new projects (http://your.dpm-site.domain/admin/)
+   * Usage:
+     * Project name scheme: Short title
+     * Project status: Proposed, Draft, Active, ...
+     * Company: Name of partner - use green "+" button to generate a new partner
+     * Project manager: select responsible person from list
+     * Project number: Progressive number XXXX (e.g. 0029) or whatever you prefer
+     * Duration type:: The base project time unit (hours, days, months)
+     * Project Sponsor: Sponsor name
+     * Project Requestor: Name of contact person
+     * (Read/write acl: access control layer - who has the rights to modify the project entries)
+     * WIP - work in progress
+     * ROTA - ?? 
+ * Enter the User panel to add/modify/manage project details (http://your.dpm-site.domain/)
+   * Starts with "dashboard" which is the overview page
+   * Click on project
+     * add new items on top with "manage project"
+       * Project Initial: summary of project metadata
+       * Deliverables
+         * Description: Short description of n-th deliverable
+         * Acceptance Criteria: what's needed to be acceptable?
+         * Deliverable Tester: who decides that it is acceptable?
+         * Method: how is the acceptance tested?
+         * Expected Result: what will be delivered?
+         * RPO: Recovery Point Objective - ??
+         * RTO: Recovery Time Objective - ?? 
+       * Risks: describe risk, estimate its probability and select way out of the mess if it happens
+       * Work items: add the various action items. NOTE that new items are added here within the "work item" tab
+         * Add Project Stage: Stage of project (e.g., initial phase, analysis phase, report writing phase, etc.)
+           * Stage Number: 1, 2, 3...
+           * Stage: short name
+           * Description: describe what should happen in this stage
+           * Note that project stages are not listed (only in "Project Initialization" page) but they are selectable later 
+         * Add Work item: stuff to do within a stage
+           * Skillset: select from list, if missing, add in Admin panel
+           * Title: Name of work package
+           * Project Stage: select from list
+           * Depends Upon: select previous relevant work package/stage (e.g., data analysis depends on data import)
+           * Duration: estimate it, based on time using defined when registering the project
+           * Owner: select from list
+           * Cost: estimate if applies
+           * Percent Complete: select
+           * Start Date: define fist day (used to generate Gantt)
+           * Finish Date: define last day (used to generate Gantt)
+           * Update: diary if you want
+           * History: ?? 
+         * Update work item: pls use to document progress
+         * Add engineering day: ?? 
+       * Issues: ??
+       * Lessons learned: Add to learn something for future projects
+       * Reports: ...
+       * Files: Upload PDFs etc. 
+     * View on top to see
+       * Gantt
+       * Time slider 
+   * WIP - work in progress
+   * ROTA - ?? 
