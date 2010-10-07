@@ -13,6 +13,8 @@ django-project-management was designed to be used in a multi-company, multi-team
 
 A sample workflow....
 
+==== Starting a new project - Modifying an existing project  ====
+
  * Go to Admin panel to register new projects (http://your.dpm-site.domain/admin/)
    * Usage:
      * Project name scheme: Short title
@@ -23,6 +25,14 @@ A sample workflow....
      * Duration type:: The base project time unit (hours, days)
      * Project Sponsor: Sponsor name
      * (Read/write acl: access control layer - who has the rights to modify the project entries)
+
+Notes:
+ * Define list of skills
+ * Generate team members
+ * Assign skills to each team member
+
+==== Managing a project  ====
+
  * Enter the User panel to add/modify/manage project details (http://your.dpm-site.domain/)
    * Starts with "dashboard" which is the overview page
      * Number: project number
@@ -51,7 +61,7 @@ A sample workflow....
            * Description: describe what should happen in this stage
            * Note that project stages are not listed (only in "Project Initialization" page) but they are selectable later 
          * Add Work item: stuff to do within a stage
-           * Skillset: select from list, if missing, add in Admin panel
+           * Skillset: select from list, if missing, add in Admin panel (see above)
            * Title: Name of work package
            * Project Stage: select from list
            * Depends Upon: select previous relevant work package/stage (e.g., data analysis depends on data import)
@@ -64,7 +74,7 @@ A sample workflow....
            * Update: diary if you want
            * History: ?? 
          * Update work item: pls use to document progress
-         * Add engineering day: Book a resource to complete the task on a specific day.
+         * Add engineering day: Book a resource to complete the task on a specific day. This will go into the team member rota. You can only add a member if the team member skillset matches the skill(s) needed in the project.
        * Issues: Document issues and problems that occur during the project
        * Lessons learned: Add to learn something for future projects
        * Reports: Provide updates to the project. These are visible on the homepage as a popup
