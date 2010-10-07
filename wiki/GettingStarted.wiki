@@ -66,6 +66,6 @@ A sample workflow....
        * Gantt
        * Time slider 
    * WIP - work in progress
-   * ROTA - ?? is it [http://en.wikipedia.org/wiki/Schedule_%28workplace%29 this]?
+   * Rota - calender based view of who is assigned to which task
 
 http://django-project-management.googlecode.com/svn/wiki/screenshots/create_new_project.png
