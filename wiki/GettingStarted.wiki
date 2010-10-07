@@ -6,23 +6,8 @@ At the moment projects are created using the admin interface rather than the fro
 
 Go to your admin section and click the *Add* link next to *Projects*
 
-You will be asked to provide the following information:
-
-|| *Field* || *Description* ||
-|| Project Name || A short name for your project. Max of 255 characters, must be unique ||
-|| Project Status || Choose which status the project is in ||
-|| Company || Which company the project is being run for. You can add new Companys from the admin interface ||
-|| Project Manager || Which Django user is the project manager for this project ||
-|| Project Number || A number or code for this project. Must be unique and is used heavily in the URLs. This was included because we have a finance code for each project we run ||
-|| Duration Type || Choice of either days or hours. In the Work Breakdown Structure do we use days or hours to measure task duration ||
-|| Project Sponsor || A free text field to name the Sponsor of the project ||
-|| Read ACL || Which Django group is allowed read access to the project ||
-|| Write ACL || Which Django group is allowed write access to the project ||
-
 ===IMPORTANT===
 django-project-management was designed to be used in a multi-company, multi-team environment. For this reason if you don't have read access to a project you won't see it in the front end, even if you are the project manager or a Django admin.
-
-http://django-project-management.googlecode.com/svn/wiki/screenshots/create_new_project.png
 
 === Django Project Management ===
 
@@ -34,13 +19,10 @@ A sample workflow....
      * Project status: Proposed, Draft, Active, ...
      * Company: Name of partner - use green "+" button to generate a new partner
      * Project manager: select responsible person from list
-     * Project number: Progressive number XXXX (e.g. 0029) or whatever you prefer
-     * Duration type:: The base project time unit (hours, days, months)
+     * Project number: Progressive number XXXX (e.g. 0029) or whatever you prefer (must be unique)
+     * Duration type:: The base project time unit (hours, days)
      * Project Sponsor: Sponsor name
-     * Project Requestor: Name of contact person
      * (Read/write acl: access control layer - who has the rights to modify the project entries)
-     * WIP - work in progress
-     * ROTA - ?? 
  * Enter the User panel to add/modify/manage project details (http://your.dpm-site.domain/)
    * Starts with "dashboard" which is the overview page
    * Click on project
@@ -85,3 +67,5 @@ A sample workflow....
        * Time slider 
    * WIP - work in progress
    * ROTA - ?? 
+
+http://django-project-management.googlecode.com/svn/wiki/screenshots/create_new_project.png
