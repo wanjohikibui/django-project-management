@@ -35,7 +35,7 @@ A sample workflow....
          * Method: how is the acceptance tested?
          * Expected Result: what will be delivered?
          * RPO: Recovery Point Objective - If the project is delivering a new IT service what is the RPO [http://en.wikipedia.org/wiki/Recovery_point_objective Wikipedia link]
-         * RTO: Recovery Time Objective - ?? 
+         * RTO: Recovery Time Objective - If the project is delivering a new IT service what is the RTO [http://en.wikipedia.org/wiki/Recovery_time_objective Wikipedia link]
        * Risks: describe risk, estimate its probability and select way out of the mess if it happens
        * Work items: add the various action items. NOTE that new items are added here within the "work item" tab
          * Add Project Stage: Stage of project (e.g., initial phase, analysis phase, report writing phase, etc.)
@@ -57,10 +57,10 @@ A sample workflow....
            * Update: diary if you want
            * History: ?? 
          * Update work item: pls use to document progress
-         * Add engineering day: ?? 
-       * Issues: ??
+         * Add engineering day: Book a resource to complete the task on a specific day.
+       * Issues: Document issues and problems that occur during the project
        * Lessons learned: Add to learn something for future projects
-       * Reports: ...
+       * Reports: Provide updates to the project. These are visible on the homepage as a popup
        * Files: Upload PDFs etc. 
      * View on top to see
        * Gantt
