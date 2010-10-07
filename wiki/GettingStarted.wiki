@@ -25,6 +25,13 @@ A sample workflow....
      * (Read/write acl: access control layer - who has the rights to modify the project entries)
  * Enter the User panel to add/modify/manage project details (http://your.dpm-site.domain/)
    * Starts with "dashboard" which is the overview page
+     * Number: project number
+     * Name: project short name
+     * Company: involved partner
+     * % Complete: current status
+     * Status: Proposed, Draft, Active, ...
+     * RAG Status: ??? (what is RAG?)
+     * Documentation Status: documentation status in DPM system
    * Click on project
      * add new items on top with "manage project"
        * Project Initiation: summary of project metadata
