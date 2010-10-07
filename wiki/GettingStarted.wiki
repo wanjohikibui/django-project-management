@@ -27,14 +27,14 @@ A sample workflow....
    * Starts with "dashboard" which is the overview page
    * Click on project
      * add new items on top with "manage project"
-       * Project Initial: summary of project metadata
+       * Project Initiation: summary of project metadata
        * Deliverables
          * Description: Short description of n-th deliverable (hint: put a number as first character(s) to allow good sorting)
          * Acceptance Criteria: what's needed to be acceptable?
          * Deliverable Tester: who decides that it is acceptable?
          * Method: how is the acceptance tested?
          * Expected Result: what will be delivered?
-         * RPO: Recovery Point Objective - ??
+         * RPO: Recovery Point Objective - If the project is delivering a new IT service what is the RPO [http://en.wikipedia.org/wiki/Recovery_point_objective Wikipedia link]
          * RTO: Recovery Time Objective - ?? 
        * Risks: describe risk, estimate its probability and select way out of the mess if it happens
        * Work items: add the various action items. NOTE that new items are added here within the "work item" tab
