@@ -1,11 +1,11 @@
 #summary Draft documentation of how the REST API will work
 
 || *Description* || *URI* || *GET* || *POST* || *PUT* || *DELETE* || *Complete* ||
-|| List of Projects || /api/projects/ || List of all projects || - || Create a new Project ||- || No ||
-|| One Project || /api/projects/<< project_number >>/ || Project details || Updates project || - || - || No ||
+|| List of Projects || /api/projects/ || List of all projects || - || Create a new Project ||- || Yes ||
+|| One Project || /api/projects/<< project_number >>/ || Project details || Updates project || - || - || Yes ||
 || List of Deliverables || /api/deliverables/<< project_number >>/ || List of Deliverables || - || - || - || No ||
 || One Deliverable || /api/deliverables/<< project_number >>/<< deliverable_id >>/ || Deliverable detail || Update the deliverable || - || Delete the deliverable* || No ||
-|| List of Risks || /api/risks/<< project_number >>/ || List of Risks || - || - || No ||
+|| List of Risks || /api/risks/<< project_number >>/ || List of Risks || - || - || - || No ||
 || One Risk || /api/risks/<< project_number >>/<< risk_id >>/ || Risk detail || Update the Risk || - || Delete the Risk* || No ||
 || List of Work Items || /api/wbs/<< project_number >>/ || List of Work Items || - || - || - || No ||
 || One Work Item || /api/wbs/<< project_number >>/<< wbs_id >>/ || Work Item detail || Update the Work Item || - || Delete the Work Item* || No ||
