@@ -40,7 +40,7 @@ Notes:
      * Company: involved partner
      * % Complete: current status
      * Status: Proposed, Draft, Active, ...
-     * RAG Status: ??? (what is RAG?)
+     * RAG Status: Red-Amber-Green (see [http://www.dtf.wa.gov.au/cms/uploadedImages/RAG.gif explanations])
      * Documentation Status: documentation status in DPM system
    * Click on project
      * add new items on top with "manage project"
